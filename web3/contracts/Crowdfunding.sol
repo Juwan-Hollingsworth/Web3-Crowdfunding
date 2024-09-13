@@ -53,7 +53,7 @@ contract Crowdfunding {
         campaign.donations.push(amount); //amount donated
 
         //make the transaction
-        (bool sent) = payable(campaign.owner).call{value:amount}("");
+        (bool sent,) = payable(campaign.owner).call{value:amount}("");
 
         if(sent) {
             campaign.amountCollected = campaign.amountCollected + amount;
