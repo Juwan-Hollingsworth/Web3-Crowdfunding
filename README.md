@@ -16,7 +16,7 @@ Users can create campaigns, fund campaigns, and transact all via the blockchain.
 Getting Started
 To set up the project locally, please follow the steps below:
 1. Clone the repository:
-git clone [https://github.com/your-username/web3-crowdfunding.git](https://github.com/Juwan-Hollingsworth/DApp-Crowdfunding.git)
+git clone [(https://github.com/Juwan-Hollingsworth/DApp-Crowdfunding.git](https://github.com/Juwan-Hollingsworth/DApp-Crowdfunding.git)
 2. Install the dependencies:
 cd DApp-Crowdfunding npm install
 3. Configure your Ethereum network settings by creating a .env file in the root directory. You can use the .env.example file as a template.
